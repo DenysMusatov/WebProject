@@ -1,0 +1,123 @@
+body {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    font-family: Verdana;
+}
+
+header {
+    background-color: darkslategrey;
+    padding: 10px;
+}
+
+.logo {
+    float: left;
+    width: 100px;
+    height: 70px;
+}
+
+nav {    
+   padding: 10px 5px;
+}
+
+nav ul {
+    text-align: center;
+    font-size: 20px;
+}
+
+nav ul li {
+    list-style: none;
+    background-color: white;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+nav ul li:hover {
+    background-color: darkgrey;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 20px;
+    margin: 20px;
+}
+
+th, td, tr {
+    border: 1px solid black;
+    text-align: left;
+}
+
+h1, h2, h3, .nomatter {
+    text-align: center;
+}
+
+.mainPic {
+    text-align: center;
+}
+
+.pic {
+    width: 100%;
+}
+
+.rent {
+    width: 32%;
+    float: left;
+    display: block;
+    text-align: center;
+}
+
+.about {
+    display: inline-block;
+}
+
+caption {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+footer {
+    padding: 0;
+    margin: 0;
+    bottom: 0px;
+    width: 100%;
+    background-color: darkslategrey;
+    text-align: center;
+}
+
+footer ul {
+    text-align: center;
+    font-size: 20px;
+}
+
+footer ul li {
+    list-style: none;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    color: darkgrey;
+}
+
+small {
+    color: white;
+    font-size: 16px;
+}
+
+
