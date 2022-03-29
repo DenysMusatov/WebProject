@@ -1,13 +1,18 @@
 body {
-    width: 80%;
+    width: 800px;
     margin: 0 auto;
     padding: 0;
-    font-family: Verdana;
+    font-family: sans-serif;
 }
 
 header {
     background-color: darkslategrey;
     padding: 10px;
+}
+
+.machine {
+    width: 49%;
+    float: left;
 }
 
 .logo {
@@ -27,21 +32,24 @@ nav ul {
 
 nav ul li {
     list-style: none;
-    background-color: white;
     display: inline;
     padding: 15px;
     margin: 5px;
-    border: 2px solid red;
-    border-radius: 10px;
 }
 
-nav ul li:hover {
-    background-color: darkgrey;
+nav ul li a:hover {
+    text-decoration: underline;
+    font-size: 20px;
 }
 
 nav ul li a {
-    color: black;
+    color: white;
     text-decoration: none;
+}
+
+#active {
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 table {
@@ -49,12 +57,17 @@ table {
     border: 1px solid black;
     border-collapse: collapse;
     font-size: 20px;
-    margin: 20px;
+    margin: 0 auto;
 }
 
 th, td, tr {
     border: 1px solid black;
     text-align: left;
+}
+
+.nomatter {
+    text-align: center;
+    margin: 30px 0;
 }
 
 h1, h2, h3, .nomatter {
@@ -70,7 +83,7 @@ h1, h2, h3, .nomatter {
 }
 
 .rent {
-    width: 32%;
+    width: 33.3%;
     float: left;
     display: block;
     text-align: center;
@@ -78,6 +91,8 @@ h1, h2, h3, .nomatter {
 
 .about {
     display: inline-block;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 caption {
@@ -96,6 +111,7 @@ footer {
 
 footer ul {
     text-align: center;
+    padding-top: 20px;
     font-size: 20px;
 }
 
