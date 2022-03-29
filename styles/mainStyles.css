@@ -1,5 +1,5 @@
 body {
-    width: 800px;
+    width: 80%;
     margin: 0 auto;
     padding: 0;
     font-family: sans-serif;
@@ -8,11 +8,6 @@ body {
 header {
     background-color: darkslategrey;
     padding: 10px;
-}
-
-.machine {
-    width: 49%;
-    float: left;
 }
 
 .logo {
@@ -128,12 +123,40 @@ footer ul li a {
 }
 
 footer ul li a:hover {
-    color: darkgrey;
+    text-decoration: underline;
+    font-size: 20px;
 }
 
 small {
     color: white;
     font-size: 16px;
+} 
+
+.machine-main  {
+    display: inline-block;
 }
+
+.machine {
+    width: 47%;
+    float: left;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.machine button {
+    font-size: 20px;
+}
+
+.machine h3 {
+    margin-top: 15%;
+}
+
+.machine img {
+    width: 50%;
+    float: left;
+}
+
+
 
 
