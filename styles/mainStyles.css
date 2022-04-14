@@ -138,8 +138,9 @@ small {
 
 .machine {
     width: 47%;
+    height: 200px;
     float: left;
-    margin: 10px;
+    margin: 0 5px 5px 5px;
     border: 1px solid black;
     border-radius: 5px;
 }
@@ -148,13 +149,21 @@ small {
     font-size: 20px;
 }
 
-.machine h3 {
-    margin-top: 15%;
-}
-
 .machine img {
     width: 50%;
     float: left;
+    height: 100%;
+}
+
+.machinery-info {
+    width: 50%;
+    display: inline-block;
+}
+
+.machinery-info h5 {
+    font-size: 15px;
+    margin: 0;
+    text-align: center;
 }
 
 
