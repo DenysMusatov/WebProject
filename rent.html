@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+    <meta name="description" content="Rent page of ConstrEquip company"/>
+    <meta name="keywords" content="rent page, rent form, fill form"/>
+		<link rel="stylesheet" href="styles\mainStyles.css" type="text/css"/>
+		<link rel="icon" type="image" href="images\favicon.png">
+		<style>
+
+	    	main {
+						margin: 15px 0;
+	          padding: 20px;
+	          border: 1px solid black;
+						border-radius: 2%;
+	          background: white;
+	          min-height: 500px;
+						background-image: url("images/formbackground.png");
+	          background-repeat: no-repeat;
+	          background-size: cover;
+						background-position: center;
+	      }
+
+	      header p {
+	          font-style: italic;
+	          text-align: center;
+	          font-weight: 900;
+	      }
+
+	      .required {
+	          font-weight: bold;
+	          color: red;
+	      }
+
+	      label {
+	          float: left;
+	          width: 100px;
+	          padding-right: 10px;
+	          text-align: right;
+	      }
+
+	      input {
+	          margin-left: 1em;
+	          margin-bottom: 1em;
+	          width: 30%;
+	      }
+
+				textarea {
+					width: 60%;
+				}
+
+	      input[type="checkbox"] {width: 15px;}
+	      input[type="radio"] {width: 10px;}
+
+	      #button, #reset {
+
+	          margin-top: 25px;
+	          padding: 10px 25px;
+	          background-color: lightblue;
+	          border: 2px solid black;
+	      }
+		 </style>
+
+		<title>ConstrEquip - Rent</title>
+	</head>
+
+	<body>
+    <header>
+      <section>
+      <img class="logo" src="images\logo.png" alt="logo">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="machinery.html">Machinery</a></li>
+          <li id="active"><a href="blog.html">Blog</a></li>
+          <li><a href="rent.html">Rent</a></li>
+        </ul>
+      </nav>
+    </section>
+    </header>
+    <main>
+			<section>
+          <h3>Please enther the following information to rent a thing!</h3>
+          <form action="http://www.foo.com/" method="post">
+              <label for="first_name">First name:<span class="required">*</span></label>
+              <input type="text" name="first_name" id="first_name" autofocus required><br>
+              <label for="last_name">Last name:<span class="required">*</span></label>
+              <input type="text" name="last_name" id="last_name" autofocus required><br>
+              <label for="email">Email:<span class="required">*</span></label>
+              <input type="email" name="email" id="email" required placeholder="test@example.com"><br>
+              <label for="gender">Gender:</label>
+              <input type="radio" id="gender" name="gender" value="male"> Male
+              <input type="radio" id="gender" name="gender" value="female"> Female
+              <input type="radio" id="gender" name="gender" value="other"> Other
+
+              <fieldset>
+									<h4>Choose the type of machinery you need: </h4>
+                  <input type="checkbox" id="internet" name="internet" value="internet"> Light machinery <br>
+                  <input type="checkbox" class="marginl" id="hear" name="paper" value="paper"> Meduim machinery <br>
+                  <input type="checkbox" class="marginl" id="hear" name="friend" value="friend"> Big machinery <br>
+                  <input type="checkbox" class="marginl" id="hear" name="Add" value="Add"> Other <br>
+              </fieldset><br>
+
+              <label for="message">What would you like to rent: <span class="required">*</span></label>
+              <textarea name="message" id="message" cols="50" rows="5" required placeholder="Your message must be less than 200 characters" data-maxlengt="200"></textarea><br>
+              <input type="submit" name="submit" id="button" value="Submit">
+              <input type="reset" name="reset" id="reset">
+          </form>
+          <p style="margin-left: 15px"><span class="required">*</span><em>Indicates a required field</em></p>
+      </section>
+    </main>
+    <footer>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="machinery.html">Machinery</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="rent.html">Rent</a></li>
+      </ul>
+      <small>&copy; 2022 ConstrEquip</small>
+    </footer>
+	</body>
+</html>

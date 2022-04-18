@@ -2,7 +2,7 @@ body {
     width: 80%;
     margin: 0 auto;
     padding: 0;
-    font-family: sans-serif;
+    font-family: sans-serif, Verdana;
 }
 
 header {
@@ -16,7 +16,7 @@ header {
     height: 70px;
 }
 
-nav {    
+nav {
    padding: 10px 5px;
 }
 
@@ -130,7 +130,7 @@ footer ul li a:hover {
 small {
     color: white;
     font-size: 16px;
-} 
+}
 
 .machine-main  {
     display: inline-block;
@@ -165,7 +165,3 @@ small {
     margin: 0;
     text-align: center;
 }
-
-
-
-
