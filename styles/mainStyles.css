@@ -191,3 +191,8 @@ small {
 .aside-info ul li {
   list-style: square;
 }
+
+.location {
+  padding-bottom: 15px;
+  border-bottom: 1px solid white;
+}
